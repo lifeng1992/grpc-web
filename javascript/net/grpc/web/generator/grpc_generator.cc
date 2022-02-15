@@ -866,6 +866,7 @@ void PrintProtoDtsMessage(Printer* printer, const Descriptor* desc,
       "serializeBinary(): Uint8Array;\n"
       "toObject(includeInstance?: boolean): "
       "$class_name$.AsObject;\n"
+      "static fromObject(obj: $class_name$.AsObject): $class_name$;\n"
       "static toObject(includeInstance: boolean, msg: $class_name$): "
       "$class_name$.AsObject;\n"
       "static serializeBinaryToWriter(message: $class_name$, writer: "
